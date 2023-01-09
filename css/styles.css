@@ -30,6 +30,20 @@ body {
 .site-nav .link.current {
   color: var(--accent-color);
 }
+
+header .link:hover,
+header .link:focus {
+  color: var(--accent-color);
+}
+
+.contacts .link {
+  color: var(--primary-text-color);
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
 /* цвет основного текста #2E2F42  */
 /* вторичный цвет #434455 */
 /* белый #FFFFFF */
