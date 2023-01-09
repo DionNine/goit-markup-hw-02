@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #2e2f42;
+  background: #e5e5e5;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+.site-nav .logo {
+  color: #000000;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.site-nav span,
+.logo:focus {
+  color: var(--accent-color);
+}
+
+.site-nav a {
+  color: #212121;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+
+.site-nav .link.current {
+  color: var(--accent-color);
+}
+/* цвет основного текста #2E2F42  */
+/* вторичный цвет #434455 */
+/* белый #FFFFFF */
+/* акцент #4D5AE5 */
