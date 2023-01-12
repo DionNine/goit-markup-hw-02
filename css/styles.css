@@ -13,11 +13,8 @@
 
 body {
   background-color: #ffffff;
-  color: var(--primary-text-color);
-  font-family: Roboto, serif;
-  letter-spacing: 0.03em;
-  font-size: 14px;
-  line-height: 1.71;
+  color: #2e2f42;
+  font-family: 'Roboto', sans-serif;
 }
 a {
   text-decoration: none;
@@ -27,7 +24,8 @@ ul {
 }
 
 /* header */
-.site-nav .logo {
+.site-nav,
+.logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -52,30 +50,27 @@ ul {
   color: #2e2f42;
   text-decoration: none;
 }
-.site-nave .menu-link {
-  color: #4d5ae5;
+.site-nave,
+.menu-link {
+  color: #2e2f42;
 }
 .menu-link:hover,
 .menu-link:focus {
-  color: var(--accent-color);
+  color: #4d5ae5;
 }
 
-.contact-mail {
+.mail-tell list,
+.contact-link {
   font-style: normal;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: var(--letter-spacing);
-  color: var(--accent-color);
+  letter-spacing: 0.02em;
+  color: #434455;
 }
-.contact-tel {
-  font-style: normal;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: var(--letter-spacing);
-  color: var(--accent-color);
-}
-.mail-tel:hover .mail-tel:focus {
-  color: var(--background-color);
+
+.contact-link:hover,
+.contact-link:focus {
+  color: #4d5ae5;
 }
 
 .link {
@@ -90,12 +85,8 @@ ul {
   background: #2e2f42;
 }
 .hero-title {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
-  /* text-align: center; */
+  line-height: 1.1;
   letter-spacing: 0.02em;
   color: #ffffff;
 }
@@ -117,6 +108,7 @@ ul {
   color: #ffffff;
   background-color: #404bbf;
 }
+
 .bnf-title {
   font-weight: 500;
   font-size: 20px;
@@ -130,13 +122,16 @@ ul {
   letter-spacing: 0.02em;
   color: #434455;
 }
-.items .team {
+.items,
+.team {
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  text-align: center;
   text-transform: capitalize;
   color: #2e2f42;
+}
+.team-list {
+  background-color: #f4f4fd;
 }
 .name {
   font-weight: 500;
@@ -177,4 +172,33 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #e7e9fc;
+}
+
+.button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  background: #e7e9fc;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+.portfolio-navigation button:hover,
+.portfolio-navigationbutton:focus {
+  background-color: #404bbf;
+  color: #ffffff;
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
 }
