@@ -2,27 +2,48 @@
 /* вторичный цвет #434455 */
 /* белый #FFFFFF */
 /* акцент #4D5AE5 */
+/* #434455 */
+:root {
+  --accent-color: #434455;
+  --primary-text-color: #2e2f42;
+  --background-color: #4d5ae5;
+  --letter-spacing: 0.02em;
+}
+
 body {
-  font-family: 'Roboto', sans-serif;
-  color: #2e2f42;
-  background: #e5e5e5;
+  background-color: #ffffff;
+  color: var(--primary-text-color);
+  font-family: Roboto, serif;
+  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
 }
 
 /* header */
-.logo {
+.site-nav .logo {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.33;
   letter-spacing: 0.03em;
   color: #2e2f42;
-  text-transform: uppercase;
   text-decoration: none;
 }
-.logo-web {
+.logo {
+  text-transform: uppercase;
+}
+.site-nav span,
+.logo:focus {
   color: #4d5ae5;
 }
-.menu {
+
+.menu-link {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -30,20 +51,36 @@ body {
   color: #2e2f42;
   text-decoration: none;
 }
-.address {
-  font-style: normal;
+.site-nave .menu-link {
+  color: #4d5ae5;
 }
-.mail-tel {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-decoration: none;
-  color: #434455;
+.menu-link:hover,
+.menu-link:focus {
+  color: var(--accent-color);
 }
 
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-tel:hover,
-.contact-tel:focus {
-  color: #4d5ae5;
+.contact-mail {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--accent-color);
+}
+.contact-tel {
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: var(--letter-spacing);
+  color: var(--accent-color);
+}
+.mail-tel:hover .mail-tel:focus {
+  color: var(--background-color);
+}
+
+.link {
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #404bbf;
 }
