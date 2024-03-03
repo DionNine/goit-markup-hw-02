@@ -126,7 +126,7 @@ ul {
 .items-title,
 .team-title {
   font-size: 36px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--primary-text-color);
@@ -160,11 +160,11 @@ ul {
 }
 .logo-footer {
   font-family: 'Raleway', sans-serif;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 18px;
-  line-height: 1.33;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: #4d5ae5;
   text-decoration: none;
 }
 .logo-footer {
@@ -172,7 +172,7 @@ ul {
 }
 .footer span,
 .logo-footer:focus {
-  color: #4d5ae5;
+  color: #f4f4fd;
 }
 
 .footer-txt {
