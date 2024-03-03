@@ -58,7 +58,7 @@ ul {
   color: #4d5ae5;
 }
 
-.mail-tell list,
+.mail-tell, address, list
 .contact-link {
   font-style: normal;
   font-size: 16px;
