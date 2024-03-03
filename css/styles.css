@@ -57,8 +57,10 @@ ul {
 .menu-link:focus {
   color: #4d5ae5;
 }
-
-.mail-tell, address, list
+.adress{
+  font-style: normal;
+}
+.mail-tell_list, address,
 .contact-link {
   font-style: normal;
   font-size: 16px;
