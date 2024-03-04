@@ -169,6 +169,8 @@ ul {
 }
 .logo-footer {
   text-transform: uppercase;
+  font-weight: 700;
+  line-height: 1.17;
 }
 .footer span,
 .logo-footer:focus {
