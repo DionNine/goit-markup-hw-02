@@ -176,6 +176,9 @@ ul {
 .logo-footer:focus {
   color: #f4f4fd;
 }
+.footer span{
+  color: #f4f4fd;
+}
 
 .footer-txt {
   font-size: 16px;
