@@ -87,12 +87,13 @@ ul {
 }
 .hero-title {
   font-size: 56px;
-  line-height: 1.1;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   color: #ffffff;
+  text-align: center;
 }
 .button-main {
-  font-family: 'Roboto';
+  font-family: 'Roboto', sans-serif;
   font-weight: 500;
   background: #4d5ae5;
   font-size: 16px;
@@ -103,7 +104,7 @@ ul {
 }
 .button-main:hover .button-main:focus {
   color: #ffffff;
-  background-color: color #4d5ae5;
+  background-color: color #404BBF;
 }
 .button-main:active {
   color: #ffffff;
