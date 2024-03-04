@@ -1,15 +1,3 @@
-/* цвет основного текста #2E2F42  */
-/* вторичный цвет #434455 */
-/* белый #FFFFFF */
-/* акцент #4D5AE5 */
-/* #434455 */
-/* #4D5AE5 */
-:root {
-  --accent-color: #434455;
-  --primary-text-color: #2e2f42;
-  --background-color: #4d5ae5;
-  --letter-spacing: 0.02em;
-}
 body
 {
   font-family: "Roboto", sans-serif;
