@@ -6,17 +6,17 @@
 /* #4D5AE5 */
 
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto",sans-serif;
   color: #434455;
-  background-color: #FFFFFF;
+  background-color:#FFFFFF;
 }
 
 a {
   text-decoration: none;
 }
 
-ul,
-ol {
+ul, ol
+{
   list-style: none;
 }
 
@@ -40,7 +40,7 @@ button {
 
 
 .menu-nav-link {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.50;
